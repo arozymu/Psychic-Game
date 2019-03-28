@@ -1,11 +1,10 @@
-var letters = [ "a", "b","c", "d", "e", "f", "g", "h", "g", "h", "i", "j", "k", "l", "m",
-"n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" ]
+var letters = [ "a", "b","c", "d", "e" ]
 
 
 var wins = 0;
 var losses = 0;
-var left = 9;
-var guesses = 9;
+var left = 2;
+var guesses = 2;
 var guessessofar = [];
 var psychicletter;
 
@@ -23,7 +22,7 @@ var guessesleft = function() {
 
 var newgame = function() {
     guessedletters = [];
-    left = 9;
+    left = 2;
     newletter();
     guessesleft();
     sofar();

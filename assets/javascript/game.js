@@ -29,7 +29,7 @@ var newgame = function() {
 }
 
 document.onkeyup = function(event) {
-    var usersguess = event.key;
+    var userguess = event.key;
     left--;
     guessessofar.push(userguess);
     sofar();
